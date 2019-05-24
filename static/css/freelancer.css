@@ -514,3 +514,14 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+
+}
+header .profile-image {
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
